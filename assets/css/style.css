@@ -464,3 +464,7 @@ home-header {
   left:38%;
   text-align: center;
 }
+
+.slideChange {
+  transform: translateX(-800px);
+}
