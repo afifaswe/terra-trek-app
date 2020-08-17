@@ -29,39 +29,47 @@
 <body>
 
 <home-header>
-  <div id="button-left" class="button-left"><h2>Agent<h2></div>
-  <div id="button-right" class="button-right"><h2>Tourist<h2></div>
+  <div id="button-left" class="button-left"><span><button style="margin:4%;align:left" class="circle-name">A</button></span><d style="font-face:'Century Gothic';margin-left: 10px;color: #36c5f9;font-size:25px;">Agent</d></div>
+  <div id="button-right" class="button-right"><d style="font-face:'Century Gothic';margin-right: 10px;color: #36c5f9;font-size:25px;">Tourist</d><span><button style="margin:4%;align:left;font-size:20px;" class="circle-name">T</button></span></div>
 
     <div id="tab-left">
+      <form action="cpanel.html">
       <div class="tab-left-log">
             <input type="text" required name="username" class="form-input-log" id="logEmail" placeholder="Username" /><br/>
             <input type="password" required name="lname" class="form-input-log" id="logPass" placeholder="Password" />
-            <button type="submit" class="button-logreg"><b>Log In</b></button>
+            <input type="submit" value="Log In" class="button-logreg"></input>
       </div>
+    </form>
+      <form action="cpanel.html">
       <div class="tab-left-reg">
             <input type="text" required name="name" class="form-input-log" placeholder="Name" /><br/>
             <input type="email" required name="email" class="form-input-log"  placeholder="Email" />
             <input type="password" required name="pass" class="form-input-log"  placeholder="Password" />
             <input type="number" required name="nid" class="form-input-log" placeholder="NID/Birth Cirtificate" />
             <div style="padding: 5px;color:white"><input type="checkbox" required> Registration as a Agent</div>
-            <button type="submit" class="button-logreg"><b>Register</b></button>
+            <input type="submit" value="Register" class="button-logreg"></input>
       </div>
+    </form>
     </div>
 
     <div id="tab-right">
+      <form action="cpanel.html">
       <div class="tab-right-log">
             <input type="text" required name="username" class="form-input-log" id="logEmail" placeholder="Username" /><br/>
             <input type="password" required name="lname" class="form-input-log" id="logPass" placeholder="Password" />
-            <button type="submit" class="button-logreg"><b>Log In</b></button>
+            <input type="submit" class="button-logreg" value="Log In" ></input>
       </div>
+    </form>
       <div class="tab-right-reg">
+        <form action="cpanel.html">
             <input type="text" required name="name" class="form-input-log" placeholder="Name" /><br/>
             <input type="email" required name="email" class="form-input-log"  placeholder="Email" />
             <input type="password" required name="pass" class="form-input-log"  placeholder="Password" />
             <input type="number" required name="nid" class="form-input-log" placeholder="NID/Birth Cirtificate" />
             <div style="padding: 5px;color:white"><input type="checkbox" required> Registration as a Tourist.</div>
-            <button type="submit" class="button-logreg"><b>Register</b></button>
+            <input type="submit" class="button-logreg" value="Register" ></input>
       </div>
+    </form>
     </div>
 
 
