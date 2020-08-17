@@ -167,3 +167,31 @@
   padding: 20px;
   text-decoration-color: white;
 }
+
+
+.nav-button {
+  background-color: black;
+  border: 1px solid gray;
+  border-radius: 25px;
+  width: 80%;
+  margin: 10%;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  text-decoration-color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+}
+.nav-button:hover {
+  background-color: #dbd6d6;
+  border: 1px solid gray;
+  border-radius: 25px;
+  width: 80%;
+  margin: 10%;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  text-decoration-color: black;
+  cursor: pointer;
+  font-size: 30px;
+}
