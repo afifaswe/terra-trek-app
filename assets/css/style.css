@@ -366,13 +366,22 @@ home-header {
   color: black;
   border: 2px solid #e7e7e7;
   position: absolute;
-  top: 15px;
-  left: 8%;
+  top: 20px;
+  left: -25px;
   border: 1px solid white;
-  border-radius: 25px;
-  width: 200px;
+  border-radius: 30px;
+  width: 250px;
+  height: 80px;
   text-align: center;
   cursor: pointer;
+}
+
+.circle-name {
+  background-color: #eceff1;
+  border: 1px solid gray;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
 }
 
 .button-left:hover {background-color: #e7e7e7;border: 1px solid black;}
@@ -382,11 +391,12 @@ home-header {
   color: black;
   border: 2px solid #e7e7e7;
   position: absolute;
-  top: 15px;
-  right: 8%;
+  top: 20px;
+  right: -25px;
   border: 1px solid white;
-  border-radius: 25px;
-  width: 200px;
+  border-radius: 30px;
+  width: 250px;
+  height: 80px;
   text-align: center;
   cursor: pointer;
 }
@@ -416,7 +426,7 @@ home-header {
   width: 250px;
   height: 120px;
   position: absolute;
-  top: 90px;
+  top: 120px;
   left: 80px;
 }
 
@@ -425,7 +435,7 @@ home-header {
   width: 250px;
   height: 250px;
   position: absolute;
-  top: 230px;
+  top: 260px;
   left: 80px;
 }
 
@@ -434,7 +444,7 @@ home-header {
   width: 250px;
   height: 120px;
   position: absolute;
-  top: 90px;
+  top: 120px;
   right: 80px;
 }
 
@@ -443,7 +453,7 @@ home-header {
   width: 250px;
   height: 250px;
   position: absolute;
-  top: 230px;
+  top: 260px;
   right: 80px;
 }
 
